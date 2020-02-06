@@ -1,0 +1,40 @@
+.navbar{
+    background: orange;
+    color: black;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+.navbar:hover{
+    background: black;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+h1{
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #EDF8B9;
+
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.content > p{
+    width: 100%;
+}
+.news:first-child{
+    margin-left: 100px;
+}
